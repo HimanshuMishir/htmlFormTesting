@@ -7,34 +7,35 @@
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
 		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-	<link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="./stylesheet/styles.css">
 </head>
 
 <body>
 
 	<style>
-		input:focus,select:focus{
+		input:focus,
+		select:focus {
 			outline: none;
 		}
 	</style>
-	
+
 
 	<img src="./image/icon.png">
 	<form style="margin: auto; align-items:center;">
 		<div class="form-group text-center">
-			<label for="exampleInputEmail1" style="font-size:150%">Email address</label>
-			<input type="email" class="form-control" id="exampleInputEmail1" required
+			<label for="email" style="font-size:150%">Email address</label>
+			<input type="email" class="form-control" id="email" required
 				style="background:transparent; margin:auto; width:50%">
 		</div>
 
 		<div class="form-group text-center">
-			<label for="exampleInputPassword1" style="font-size:150%">Password</label>
-			<input type="password" class="form-control" id="exampleInputPassword1" required
+			<label for="password" style="font-size:150%">Password</label>
+			<input type="password" class="form-control" id="password" required
 				style="background:transparent; margin:auto; width:50%" minlength="8">
 		</div>
 
 		<div class="form-group form-check text-center">
-			<input type="checkbox" class="form-check-input" id="exampleCheck1">
+			<input type="checkbox" class="form-check-input" value="lsRememberMe" id="rememberMe">
 			<label class="form-check-label" for="exampleCheck1" style="font-size:150%">Remeber Me!</label>
 		</div>
 
@@ -43,7 +44,7 @@
 		</div>
 	</form>
 
-
+	<script src="./javascript/index.js"></script>
 
 
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
